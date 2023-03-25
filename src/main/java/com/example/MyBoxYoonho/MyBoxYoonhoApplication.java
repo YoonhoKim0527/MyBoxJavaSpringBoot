@@ -6,17 +6,19 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.http.converter.json.GsonBuilderUtils;
 
 import java.util.List;
 import java.util.Scanner;
 
 @SpringBootApplication
+@EnableJpaAuditing
 public class MyBoxYoonhoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MyBoxYoonhoApplication.class, args);
 	}
-
 
 	// createMultipleStudent(userDAO);
 	// readStudent(userDAO);
