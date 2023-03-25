@@ -1,6 +1,6 @@
 package com.example.MyBoxYoonho.dao;
 
-import com.example.MyBoxYoonho.entity.User;
+import com.example.MyBoxYoonho.domain.User;
 
 import java.util.List;
 

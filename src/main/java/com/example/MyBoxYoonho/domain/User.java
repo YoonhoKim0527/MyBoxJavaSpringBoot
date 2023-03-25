@@ -1,4 +1,4 @@
-package com.example.MyBoxYoonho.entity;
+package com.example.MyBoxYoonho.domain;
 
 import jakarta.persistence.*;
 import org.apache.catalina.users.GenericRole;

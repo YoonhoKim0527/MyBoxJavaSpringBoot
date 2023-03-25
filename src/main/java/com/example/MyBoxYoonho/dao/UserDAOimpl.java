@@ -1,6 +1,6 @@
 package com.example.MyBoxYoonho.dao;
 
-import com.example.MyBoxYoonho.entity.User;
+import com.example.MyBoxYoonho.domain.User;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import org.springframework.beans.factory.annotation.Autowired;
